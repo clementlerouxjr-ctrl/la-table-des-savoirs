@@ -1,0 +1,91 @@
+{
+  "name": "La Table des Savoirs",
+  "operator": "F&B, the school canteen of Institut Lyfe",
+  "location": "Écully, France",
+  "audience": "Students, Institut Lyfe staff and external guests (public access).",
+  "price": "10€ per meal",
+  "opening_hours_raw": "11:00–13:00",
+  "opening_hours_note": "Confirmed by the user for this prototype.",
+  "vegetarian": "A vegetarian option changes every day. The supplied information says vegetarian, not vegan.",
+  "availability": "No live sold-out or availability update has been supplied. Guests must check with canteen staff.",
+  "booking": "Booking and pre-order arrangements have not been supplied. The chatbot cannot place orders or reservations.",
+  "payment": "Accepted payment methods have not been supplied.",
+  "allergens": "Full recipes, ingredient specifications, allergen declarations and cross-contact procedures have not been supplied. Guests must confirm with canteen staff before ordering.",
+  "menus": {
+    "2026-11-23": {
+      "day": "Monday 23 November 2026",
+      "starters": [
+        "Soup of the day",
+        "Roasted butternut squash with honey, toasted hazelnuts and feta",
+        "Roasted cauliflower with yoghurt sauce"
+      ],
+      "mains": [
+        "Chicken thigh with bacon and thyme, raisin semolina and Brussels sprouts"
+      ],
+      "desserts": [
+        "Seasonal fruit",
+        "Cheese selection"
+      ]
+    },
+    "2026-11-24": {
+      "day": "Tuesday 24 November 2026",
+      "starters": [
+        "French onion soup",
+        "Pasta salad / ham duo with mustard dressing",
+        "Grated red carrots with orange vinaigrette"
+      ],
+      "mains": [
+        "Beef bourguignon, creamy polenta, mushrooms, pearl onions and carrots"
+      ],
+      "desserts": [
+        "Seasonal fruit",
+        "Small pot of Thai tea cream"
+      ]
+    },
+    "2026-11-25": {
+      "day": "Wednesday 25 November 2026",
+      "starters": [
+        "Parmentier velouté",
+        "Ricotta and grilled focaccia with smoked salmon",
+        "Hummus, pomegranate and wraps"
+      ],
+      "mains": [
+        "Honey-confit pork belly, crispy risotto cake and leek fondue"
+      ],
+      "desserts": [
+        "Seasonal fruit",
+        "Cheese selection"
+      ]
+    },
+    "2026-11-26": {
+      "day": "Thursday 26 November 2026",
+      "starters": [
+        "Butternut and chestnut soup",
+        "Chard and ham quiche (Harvest Table)",
+        "Green salad with white grapes, walnuts and sheep’s cheese (Harvest Table)"
+      ],
+      "mains": [
+        "Veal loin with rosemary jus, sautéed potatoes, Swiss chard with tomato and olives (Harvest Table)"
+      ],
+      "desserts": [
+        "Seasonal fruit",
+        "Black grape tart (Harvest Table)"
+      ]
+    },
+    "2026-11-27": {
+      "day": "Friday 27 November 2026",
+      "starters": [
+        "Vietnamese shrimp salad",
+        "Soup of the day",
+        "Lamb’s lettuce, pear and hazelnut salad"
+      ],
+      "mains": [
+        "Cheese selection (listed under main courses in the supplied menu)",
+        "Salmon in an olive crust, Parmesan cream, quinoa and confit fennel"
+      ],
+      "desserts": [
+        "Seasonal fruit"
+      ]
+    }
+  }
+}

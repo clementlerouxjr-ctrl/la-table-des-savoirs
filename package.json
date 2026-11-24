@@ -1,0 +1,13 @@
+{
+  "name": "la-table-des-savoirs-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone menu chatbot prototype for La Table des Savoirs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

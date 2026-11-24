@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f5f0"><title>La Table des Savoirs — Menu assistant</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/" aria-label="La Table des Savoirs home"><span class="brand-mark">TS</span><span><strong>La Table des Savoirs</strong><small>INSTITUT LYFE · ÉCULLY</small></span></a>
+  <div class="header-right"><span class="status-dot"></span><span>Menu assistant</span><a class="staff-link" href="/#staff" id="staffLink">Staff access</a></div>
+</header>
+<main class="layout">
+  <section class="intro">
+    <div class="eyebrow">YOUR CAMPUS CANTEEN, MADE SIMPLE</div>
+    <h1>Good food.<br><em>Good to know.</em></h1>
+    <p>Ask us about the menu, dishes, prices and dietary information. We’ll help you find the information you need.</p>
+    <div class="info-note"><span class="note-icon">i</span><span>For allergies and live availability, please always confirm with the canteen team.</span></div>
+  </section>
+  <section class="chat-card" aria-label="Chat with the menu assistant">
+    <div class="chat-heading"><div class="assistant-avatar">TS</div><div><strong>Your canteen assistant</strong><small><span class="status-dot"></span> Here to help</small></div><span class="today-pill">MENU · 23–27 NOV</span></div>
+    <div id="messages" class="messages" aria-live="polite">
+      <div class="message assistant"><div class="bubble">Hello! Welcome to La Table des Savoirs. 👋<br><br>I can help you explore our menus, prices and practical information. What would you like to know?</div><span class="message-time">JUST NOW</span></div>
+    </div>
+    <div class="suggestions" id="suggestions">
+      <button class="suggestion">What’s on the menu today?</button>
+      <button class="suggestion">Do you have a vegetarian option?</button>
+      <button class="suggestion">What are the prices and opening hours?</button>
+    </div>
+    <form id="chatForm" class="composer"><input id="question" autocomplete="off" maxlength="1500" placeholder="Ask a question about the canteen…" aria-label="Your question"><button aria-label="Send message" type="submit"><span>Send</span><b>↗</b></button></form>
+    <div class="chat-foot">Answers are based on information provided by Institut Lyfe. <span id="modeLabel">Prototype mode</span></div>
+  </section>
+</main>
+<footer><span>LA TABLE DES SAVOIRS</span><span>INSTITUT LYFE · ÉCULLY, FRANCE</span></footer>
+
+<section id="staff" class="staff-section">
+  <div class="staff-shell">
+    <div class="eyebrow">RESTAURANT OPERATIONS</div><h2>Staff update portal</h2>
+    <p class="staff-description">Authorised team members can publish daily changes. This area is password-protected and separate from the guest chat.</p>
+    <div id="staffLogin" class="staff-panel">
+      <label for="staffPassword">Staff password</label><div class="login-row"><input id="staffPassword" type="password" placeholder="Enter staff password"><button id="loginButton">Sign in</button></div><p id="loginError" class="error"></p>
+    </div>
+    <div id="staffEditor" class="staff-panel hidden">
+      <div class="staff-top"><strong>Daily information update</strong><button id="logoutButton" class="quiet-button">Sign out</button></div>
+      <p class="updated" id="lastUpdated">Last updated: No staff update yet</p>
+      <div id="changeRows"></div>
+      <button id="addChange" class="add-button">＋ Add a change</button>
+      <label for="staffName">Your name / role</label><input id="staffName" placeholder="e.g. Canteen manager">
+      <label for="staffNote">Internal note (optional)</label><textarea id="staffNote" rows="2" placeholder="Context for this update"></textarea>
+      <button id="publishButton" class="publish-button">Publish daily update</button><p id="publishMessage" class="publish-message"></p>
+      <p class="staff-warning">Published updates immediately affect guest answers. Use precise wording. To remove an old update, publish a new complete list of current changes.</p>
+    </div>
+    <div class="timestamp">Guest information last updated: <strong id="publicUpdated">No staff update recorded</strong></div>
+  </div>
+</section>
+<script src="/app.js"></script>
+</body></html>
